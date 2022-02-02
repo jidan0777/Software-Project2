@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"kevinoliveira.uri-online-judge-code"
+		]
+	}
+}
