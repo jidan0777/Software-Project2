@@ -1,0 +1,198 @@
+*{padding: 0; margin:0; box-sizing: border-box; font-family: sans-serif;}
+header{
+	font-family: sans-serif;
+	width: 100%;
+	min-height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+				url('img/peakpx.jpg');
+	background-size: cover;
+	position: relative;
+}
+
+nav{
+	width: 100%;
+	height: 70px;
+	padding: 0 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 20px;
+	transition: 0.4s;
+}
+.menu a:last-child{
+	
+	border-radius: 8px;	
+}
+.menu a:hover{
+	background:#C70039;
+	border-radius: 8px;		
+}
+.box{
+	background: white;
+	width: 450px;
+	height: 440px;
+	position: absolute;
+	top:25%;
+	right: 5%;
+	padding: 30px;
+	border-radius: 15px;
+}
+.submit{
+	border-radius: 10px;
+}
+form{
+	width: 100%;
+}
+form input[type="text"]{
+	width: 100%;
+	padding: 20px 10px;
+	margin:10px 0;
+	outline: none;
+	border:none;
+	background: rgba(0,0,0,0.1);
+}
+form input[type="submit"]{
+	width: 100%;
+	padding: 20px 10px;
+	margin:10px 0;
+	outline: none;
+	border:none;
+	background:#C70039;
+	color: white;
+	cursor: pointer;
+	transition: 0.4s;
+}
+form input[type="submit"]:hover{
+	background: transparent;
+	border:1px solid grey;
+	color: black;
+}
+.box span{
+	color: #C70039;
+	cursor: pointer;
+}
+.htext{
+	position: absolute;
+	top:30%;
+	left: 5%;
+	max-width: 600px;
+	color: white;
+}
+.htext h1{
+	font-size: 2em;
+}
+.htext h2{
+	font-size: 4em;
+}
+.htext span{
+	color: #C70039;
+}
+.htext p{
+	margin: 15px 0;
+	line-height: 2em;
+}
+.htext a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	border:1px solid white;
+	letter-spacing: 2px;
+	border-radius: 8px;
+	transition: 0.4s;
+}
+
+.htext a:hover{
+	background: #C70039;
+}
+.last{
+    align-items: center;
+    background-color:#e7e7e7;
+    justify-content: center;
+    display: flex;
+    font-size: 8px;
+    height: 70px;
+    font-family: 'Lato',sans-serif;
+    
+}
+section.about .about-img{
+	width: 500px;
+	height: 450px;
+	padding-left: 7rem;
+}
+
+
+section{
+    padding: 6rem 0;
+	
+ }
+
+ section.about h1{
+     margin-bottom: 1rem;
+     font-size: 1.6rem;
+     font-weight: 400;
+	 display: flex;
+ }
+section.about h1 span{
+    color: red;
+}
+
+
+
+section.about p{
+	display: flex;
+
+    font-family: 'Lato',sans-serif;
+    color: var(--ternary);
+    line-height: 1.9;
+    margin-top: 2rem;
+}
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items:center  ;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.flex-1{
+    flex: 1;
+}
+
+.about{
+	font-family: sans-serif;
+	width: 100%;
+	min-height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+					url('img/624ff9895aac5.jpg');
+	background-size: cover;
+	position: relative;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
