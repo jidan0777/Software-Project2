@@ -1,0 +1,25 @@
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.name2 .btn{
+    justify-content: center;
+    align-items: center;
+    padding-left: 30%;
+    
+}
+.name1{
+    
+    justify-content: space-between;
+}
+.container{
+    background-color: burlywood;
+    height: 60vh;
+    
+    
+    
+}
